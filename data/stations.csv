@@ -1,0 +1,9 @@
+station,areas,elements,feed,uplink,kind
+O1,V1|V2,rain|humidity,F1,U1,old
+O2,V1,rain|wind,F2,U2,old
+O3,V2|V3,rain|wind|humidity,F3,U3,old
+O4,V1|V3,rain|wind|humidity,F7,U8,old
+N1,V1|V2,rain|wind|humidity,F4,U4,new
+N2,V2|V3,rain|wind|humidity,F2,U5,new
+N3,V1|V3,rain|wind|humidity,F5,U6,new
+REF,V1|V2|V3,rain|wind|humidity,F6,U7,reference

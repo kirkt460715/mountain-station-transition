@@ -1,0 +1,87 @@
+{
+  "tables": {
+    "demands": [
+      "area",
+      "stratum",
+      "need",
+      "minimum",
+      "independent"
+    ],
+    "stations": [
+      "station",
+      "areas",
+      "elements",
+      "feed",
+      "uplink",
+      "kind"
+    ],
+    "works": [
+      "work",
+      "kind",
+      "station",
+      "begin_by",
+      "end_by",
+      "span",
+      "crew",
+      "depends"
+    ],
+    "resources": [
+      "crew",
+      "count"
+    ],
+    "field_updates": [
+      "id",
+      "reported_day",
+      "effective_day",
+      "station",
+      "field",
+      "value"
+    ],
+    "trial_reports": [
+      "report",
+      "work",
+      "day",
+      "known_severe",
+      "unclassified"
+    ],
+    "trial_evidence": [
+      "report",
+      "opportunity",
+      "reported_day"
+    ],
+    "opportunities": [
+      "opportunity",
+      "area",
+      "stratum",
+      "day",
+      "reference"
+    ],
+    "readings": [
+      "opportunity",
+      "station",
+      "valid_elements",
+      "reported_day",
+      "origin"
+    ]
+  },
+  "references": [
+    [
+      "readings",
+      "opportunity",
+      "opportunities",
+      "opportunity"
+    ],
+    [
+      "readings",
+      "station",
+      "stations",
+      "station"
+    ],
+    [
+      "trial_reports",
+      "work",
+      "works",
+      "work"
+    ]
+  ]
+}

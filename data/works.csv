@@ -1,0 +1,9 @@
+work,kind,station,begin_by,end_by,span,crew,depends
+W1,install,N1,1,6,2,crane,
+W2,trial,N1,3,12,4,survey,W1
+W3,retire,O1,9,18,2,crane,W2
+W4,install,N2,2,10,3,crane,
+W5,trial,N2,6,14,4,survey,W4
+W6,retire,O3,10,18,2,crane,W5
+W7,install,N3,5,13,2,crane,
+W8,trial,N3,8,17,3,survey,W7

@@ -1,0 +1,6 @@
+area,stratum,need,minimum,independent
+V1,severe,rain|wind,0.72,2
+V1,normal,rain,0.83,1
+V2,severe,rain|humidity,0.78,2
+V2,normal,rain,0.80,1
+V3,severe,rain|wind,0.70,1
